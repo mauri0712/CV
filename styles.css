@@ -1,0 +1,141 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #204051;
+  color: #eeeeee;
+  text-align: center;
+  margin: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #00adb5;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+.section {
+  margin-bottom: 190px;
+}
+
+
+.wrapper {
+  padding-top: 225px;
+  width: 720px;
+  margin: 0 auto;
+}
+
+/* SECTION PERTAMA*/
+
+.foto-profil {
+  float: right;
+  border-radius: 100%;
+  margin-left: 30px;
+  width: auto;
+  height: 300px;
+}
+
+.intro {
+  text-align: left;
+}
+
+.title {
+  /*1 em = 16 px = 100%*/
+  font-size: 4.5rem;
+  font-family: "caveat", cursive;
+  font-weight: bold;
+  display: block;
+}
+
+.btn {
+  background-color: #ff5722;
+  color: white;
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+}
+
+.instagram {
+  width: auto;
+  height: 49px;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  margin-top: 10px;
+}
+
+/* section kedua*/
+
+.statistics {
+  float: left;
+  margin-right: 120px;
+  width: 200px;
+  height: 200px;
+}
+
+.skill-row {
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+/* section ketiga*/
+
+.scheme {
+  float: right;
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.skill-row2 {
+  text-align: left;
+}
+
+/* section ketiga*/
+
+.cta-text {
+  width: 68%;
+  margin: 0 auto 12px auto;
+}
+
+/* footer*/
+
+.footer {
+  background-color: #3d7ea6;
+  padding: 30px 0 20px;
+  margin: 0px;
+}
+
+.social-links {
+  margin: 0 12px 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+/* penggunaan id */
+
+#attribute {
+  position: absolute;
+  left: 247px;
+  top: 160px;
+}
